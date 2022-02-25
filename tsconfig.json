@@ -1,0 +1,42 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./src/lib",
+    "rootDir": "./src/lib",
+    "outDir": "./dist/lib",
+    "declarationDir": "./dist/types",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "lib": [
+      "DOM",
+      "es6"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [
+      "cypress"
+    ],
+    "jsx": "react",
+    "declaration": true,
+    "preserveSymlinks": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "allowJs": true,
+    "checkJs": true,
+    "disableSizeLimit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "./src/lib/**/*.*"
+, "src/lib/var.constant.ts"  ]
+}

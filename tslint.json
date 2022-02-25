@@ -1,0 +1,75 @@
+{
+  "extends": [
+    "tslint-config-airbnb"
+  ],
+  "rules": {
+    "no-debugger": true,
+    "no-console": true,
+    "max-line-length": [
+      true,
+      140
+    ],
+    "completed-docs": [
+      true,
+      {
+        "classes": {
+          "visibilities": ["exported"]
+        },
+        "enums": {
+          "visibilities": ["exported"]
+        },
+        "functions": {
+          "visibilities": ["exported"]
+        },
+        "interfaces": {
+          "visibilities": ["exported"]
+        },
+        "namespaces": {
+          "visibilities": ["exported"]
+        },
+        "types": {
+          "visibilities": ["exported"]
+        },
+        "variables": {
+          "visibilities": ["exported"]
+        },
+        "methods": {
+          "locations": ["all"],
+          "privacies": ["all"]
+        },
+        "properties": {
+          "locations": ["all"],
+          "privacies": ["all"]
+        }
+      }
+    ],
+    "function-name": [
+      true,
+      {
+        "function-regex": "^[a-z$][\\w\\d]+$",
+        "method-regex": "^[a-z$][\\w\\d]+$",
+        "private-method-regex": "^_[a-z$][\\w\\d]+$",
+        "protected-method-regex": "^_[a-z$][\\w\\d]+$",
+        "static-method-regex": "^[a-z$][\\w\\d]+$"
+      }
+    ],
+    "variable-name": [
+      true,
+      "check-format",
+      "ban-keywords",
+      "allow-leading-underscore"
+    ]
+  },
+  "jsRules": {
+    "quotemark": false,
+    "indent": false,
+    "prefer-const": true,
+    "completed-docs": true,
+    "variable-name": [
+      true,
+      "check-format",
+      "ban-keywords",
+      "allow-leading-underscore"
+    ]
+  }
+}

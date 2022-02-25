@@ -1,0 +1,12 @@
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "integrationFolder": "src/lib/tests",
+  "testFiles": "**/*.spec.ts",
+  "screenshotOnRunFailure": false,
+  "pluginsFile": "cypress/plugins/index.js",
+  "fixturesFolder": false,
+  "supportFile": false,
+  "ignoreTestFiles": "*.map",
+  "video": false,
+  "watchForFileChanges": true
+}

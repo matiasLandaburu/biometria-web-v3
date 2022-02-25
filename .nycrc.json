@@ -1,0 +1,19 @@
+{
+  "cache": false,
+  "extension": [
+    ".ts",
+    ".tsx"
+  ],
+  "include": [
+    "dist/lib/**/*.js",
+    "src/lib/**/*.ts"
+  ],
+  "reporter": [
+    "html",
+    "text-summary",
+    "text",
+    "json-summary"
+  ],
+  "report-dir": "coverage/node",
+  "temp-dir": "coverage/node/output"
+}

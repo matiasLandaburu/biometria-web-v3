@@ -1,0 +1,14 @@
+{
+  "name": "@link-ts/biometria",
+  "publishConfig": {
+    "@link-ts:registry": "https://repo.redlink.com.ar/api/v4/projects/1603/packages/npm/"
+  },
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./types/index.d.ts",
+  "license": "ISC",
+  "peerDependencies": {
+    "axios": "^0.21.1",
+    "face-api.js": "^0.22.2"
+  }
+}
